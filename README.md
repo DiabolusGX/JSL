@@ -18,9 +18,14 @@ JSL Bot - Multipurpose discord bot
 
 ### Setup
 Starting with bot setup?
+
 You can start with `.help setup` to see what configurations you can edit & you want to set.
-**Note** : *You can remove any config anytime by setting it's value to `none`*
+
+**Note** : 
+- *You can remove any config anytime by setting it's value to `none`*
+  
     *ex : `.setup bot none` will remove bot channel.*
+
 Name | Example | Usage
 ------- | ------------ | -------
 prefix | `.setup prefix jsl.` | Sets new prefix. Prefix can't have *space*. 
@@ -44,12 +49,12 @@ Various utility commands and modules are one of the main features of JSL Bot.
 Check the table to get available commands with their proper usage and examples.
 Name | Example | Usage
 ------------ | ------------- | -------------
-steam | `.steam \<game \| user \| link \| groups \| play \...\>` | Steam module is covered saperatly [Over Here](#Steam)
+steam | `.steam <game \| user \| link \| groups \| play ...>` | Steam module is covered saperatly [Over Here](#Steam)
 movie | `.movie now you see me` | Searches for available Moves. You can then respond with the `number` next to the result to get that Movie info.
 tvshow | `.show Lucifer` | Searches for available TV Series. You can then respond with the `number` next to the result to get information on that TV Show.
 trailer | `.trailer ` | Searches for available trailers on YouTube. You can then respond with the `number` next to the result to get YouTube URL of that Trailer.
-booster | `.booster <message | image | role | embed | stats | preview>` | Send custom message in [System Message Channel](https://prnt.sc/vrurxn) when someone boosts your server & add custom role. 
-bin | `.bin <paste | get> <Data | Paste ID>` | You can easily save data to Pastebin and get an URL or get the data using the paste id (end part of url).
+booster | `.booster <message \| image \| role \| embed \| stats \| preview>` | Send custom message in [System Message Channel](https://prnt.sc/vrurxn) when someone boosts your server & add custom role. 
+bin | `.bin <paste \| get> <Data \| Paste ID>` | You can easily save data to Pastebin and get an URL or get the data using the paste id (end part of url).
 gif | `.gif celebration` | Sends a gif related to provided keyword else It'll send a random trending gif.
 ascii | `.ascii <query>` | Convert your query to ascii-art.
 reddit | `.reddit pcmasterrace` | Search a subreddit for you and returns a random popular post.
@@ -59,10 +64,14 @@ urban** | `.urban bots` | Search your query on Urban Disctionary.
 
 ### Steam
 Get steam game info, user info, recent played games, common games and friends that has perticular game.
+
 You can start with `.steam setup` to make your profile privacy settings work with bot & other 3rd party websites.
 
 - I suggest you to link your steam profile using `.steam link` so that users can diretly mention you instead of typing your steam url or steam user id.
-- For `steam game` command You can respond with the `number`(1, 2, 3...) *next to the result* to get information about that game. **OR** You can directly use `AppID` like `.steam game 1085660` to quickly get game info.
+- For `steam game` command You can respond with the `number`(1, 2, 3...) *next to the result* to get information about that game. 
+   
+    **OR** You can directly use `AppID` like `.steam game 1085660` to quickly get game info.
+
 
 Name | Example | Usage
 ------------ | ------------- | -------------
