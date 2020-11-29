@@ -8,12 +8,12 @@ JSL Bot - Multipurpose discord bot
 
 ### Before you start
 ***Do not literally type out <> \[\] | etc. (Unless Mentioned)***
-**Aliases:** \[foo | bar\] means that you can use either foo or bar.
-**Optional:** \[foo\] means that this argument can be ignored.
-**Required:** \<foo\> means that you must use this argument for the command to work.
-***If you want to remove config you changed, set it's value to `none` like `.booster message none`***
+- **Aliases:** \[foo | bar\] means that you can use either foo or bar.
+- **Optional:** \[foo\] means that this argument can be ignored.
+- **Required:** \<foo\> means that you must use this argument for the command to work.
+- ***If you want to remove config you changed, set it's value to `none` like `.booster message none`***
 *Commands marked with*
-- `*` can be unlocked for 12 hours after you [Vote JSL Bot.](https://bit.ly/jsl-bot 'Vote on top.gg')*
+- `*` can be unlocked for 12 hours after you [Vote JSL Bot.](https://bit.ly/jsl-bot 'Vote on top.gg')
 - `**` can unly be used in NSFW channels.
 
 ### Setup
@@ -44,7 +44,7 @@ Various utility commands and modules are one of the main features of JSL Bot.
 Check the table to get available commands with their proper usage and examples.
 Name | Example | Usage
 ------------ | ------------- | -------------
-steam | `.steam <game | user | link | groups | play ...>` | Steam module is covered saperatly [Over Here](#Steam)
+steam | `.steam \<game \| user \| link \| groups \| play \...\>` | Steam module is covered saperatly [Over Here](#Steam)
 movie | `.movie now you see me` | Searches for available Moves. You can then respond with the `number` next to the result to get that Movie info.
 tvshow | `.show Lucifer` | Searches for available TV Series. You can then respond with the `number` next to the result to get information on that TV Show.
 trailer | `.trailer ` | Searches for available trailers on YouTube. You can then respond with the `number` next to the result to get YouTube URL of that Trailer.
