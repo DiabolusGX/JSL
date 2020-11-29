@@ -91,6 +91,13 @@ groupinfo | `.steam groupinfo ESL` | Shows you information available on mentione
 
 ### Music
 
+- Make sure bot has requires permissions (i.e `JOIN`, `SPEAK`, `USE_VOICE_AVTIVITY`) in the Voice Channel hwere you want to listen to music :)
+- The additional `.sound` command has some cool sound effects that you can play. 
+- `.help sound` to see available sound effects and play like : `.sound drum-roll`
+
+Bot will Join Voice Channel and leave as soon as song or soundeffect is over.
+
+
 Name | Example | Usage
 ------------ | ------------- | -------------
 play | `.play perfect` | Plays the song or playlist from youtube (including livestreams),  soundcloud, bandcamp, twitch, vimeo, mixer,  direct file links.
