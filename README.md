@@ -1,8 +1,8 @@
 # JSL Bot
-JSL Bot - Multipurpose discord bot
+A true multipurpose discord bot.
 
-###### **Useful Links**
-| [Invite Bot](https://bit.ly/jsl-default) | [Support Server](https://bit.ly/jsl-support) | [Vote JSL](https://bit.ly/jsl-bot) | [Trello](https://bit.ly/jsl-trello) |
+**Useful Links**
+| [Invite Bot](https://bit.ly/jsl-default) | [Support Server](https://bit.ly/jsl-support) | [Vote JSL](https://bit.ly/jsl-bot) | [Getting Started](#Setup) |
 
 
 [![Discord Bots](https://top.gg/api/widget/699505785847283785.svg)](https://top.gg/bot/699505785847283785)
