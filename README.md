@@ -34,6 +34,8 @@ welcome | `.setup welcome <channel>` | To get welcome messages when someone join
 mod channel | `.setup modchnl <channel>` | To get log of JSL Bot Moderation Command used. You can mention the channel or use channel id.
 coins channel | `.setup general <channel>` | To enable [Economy Module](#Economy), members will get coins in this channel. You can mention the channel or use channel id.
 
+-----
+
 # Commands
 Here are the categories the commands are divided in :
 Click on category to get available commands with example and usage.
@@ -85,6 +87,7 @@ link | `.steam link DiabolusGX` | Links your discord to your steam account.
 play | `.steam play Destiny 2` | Shows list of your friends on steam that owns this game.
 groupinfo | `.steam groupinfo ESL` | Shows you information available on mentioned steam group.
 
+-----
 
 ### Music
 
@@ -101,3 +104,35 @@ loop | `.loop` | Switch b/w repeating the playlist and current song.
 lyrics | `.lyrics` | Shows lyrics of currently playing song or the song you entered. You have to respond with the *number* to the result to get lyrics.
 volume | `.volume 75` | Changes the volume between 1 and 100% (100 is pretty loud as you can probably tell)
 leave | `.leave` | Disconnects the bot from the voice channel and clears the queue.
+
+-----
+
+### Economy
+
+Economy module can be enabled from [Setup](#Setup) command.
+- i.e `.setup general <channel>` You can mention the channel or use Channel ID.
+- Users will get coins only in `general` channel.
+
+Other available Economy Commands are : 
+
+Name | Example | Usage
+------------ | ------------- | -------------
+cions | `.coins [user]` | Shows your or mentioned user's coins (if any).
+pay | `.pay @DiabolusGX 2020` | Sends `x` coins to mentioned user's account.
+work | `.work` | You can work every 12 hr and get upto 250 coins.
+shop | `.shop <rep | chicken> [quantity]` | Buy reputation points or chicken to take part in cock-fight.
+fight | `.fight 100` | Bets 100 on your chicken. You win & earn 100 else cock dies
+buy | `.buy <1 | 2 | 3>` | Buy from server shop that you can setup using `.buysetup`
+items | `.items [user]` | Shows your or mentioned user's inventory.
+rep | `.rep @DiabolusGX` | gives 1 reputatation point to mentioned user.
+
+
+To setup server shop (`.buysetup`) :
+- To set name of 1st item : `.buysetup role1 name Epic Role`
+- To set value/price of 1st item : `.buysetup role1 value 10000`
+- To remove, set value to `none` like `.buysetup role1 name none`
+
+**You can setup upto 3 items using `buysetup`**
+
+
+-----
