@@ -1,7 +1,6 @@
 # JSL Bot
 A true multipurpose discord bot.
 
-**Useful Links**
 | [Invite Bot](https://bit.ly/jsl-default) | [Support Server](https://bit.ly/jsl-support) | [Vote JSL](https://bit.ly/jsl-bot) | [Getting Started](#Setup) |
 
 
