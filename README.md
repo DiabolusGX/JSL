@@ -1,10 +1,13 @@
 # JSL Bot
 JSL Bot - Multipurpose discord bot
 
-[![Discord Bots](https://top.gg/api/widget/699505785847283785.svg)](https://top.gg/bot/699505785847283785)
-
 ###### **Useful Links**
 | [Invite Bot](https://bit.ly/jsl-default) | [Support Server](https://bit.ly/jsl-support) | [Vote JSL](https://bit.ly/jsl-bot) | [Trello](https://bit.ly/jsl-trello) |
+
+
+[![Discord Bots](https://top.gg/api/widget/699505785847283785.svg)](https://top.gg/bot/699505785847283785)
+
+-----
 
 ### Before you start
 ***Do not literally type out <> \[\] | etc. (Unless Mentioned)***
