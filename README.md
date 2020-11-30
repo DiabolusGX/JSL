@@ -151,11 +151,14 @@ This command can be used to host events that server members can attend and set t
   > `.event edit 782859872802570311 desc Streaming VC Will be General vc.` It'll update event description.<br/>
   > `.event edit 782859872802570311 message @event Streaming Now!` Will set [***Alert Message***](https://prnt.sc/vsmqb5) to *"@event Streaming Now!"* <br/>
 - You can also personal alert, so that bot will `DM` or `PING` you when event will start.<br/>To set the alert :<br/> 
-  > You have to react with '✅' to mark yourself as `ATTENDEE`.<br/>
+  > You have to react with `✅` to mark yourself as `ATTENDEE`.<br/>
   > Use `.event alert ping` If you want to get a ping message on event start.<br/>
   > or `.event alert dm` If you want to recieve DM when event starts.<br/>
   > You can always disable the alert by `.event alert none` (default).<br/>
-
+- To get Event Start Time in your local time
+  1. Set your city using `.time link` like : `.time link NY`.
+  1. Then react with `⏰` on event message to convert *Event Start Time* in your *Local Time*.<br/>*Make sure your DMs are open!*
+  1. If you want time in any other timezone then update your city like : `.time update Delhi` then bot will show *Event Time* accordig to time in Delhi, India.
 
 Go back to [Commands](#Commands)
 
@@ -170,7 +173,6 @@ ascii | `.ascii <query>` | Convert your query to ascii-art.
 
 
 Go back to [Commands](#Commands)
-
 
 -----
 
@@ -202,6 +204,19 @@ Go back to [Commands](#Commands)
 
 
 -----
+
+### Other
+
+Name | Example | Usage
+------------ | ------------- | -------------
+ping | `.ping` | Shows response time & ping of bot.
+
+
+Go back to [Commands](#Commands)
+
+
+-----
+
 
 ### Economy
 
@@ -235,3 +250,17 @@ Go back to [Commands](#Commands)
 
 
 -----
+
+
+### Mods
+
+Name | Example | Usage
+------------ | ------------- | -------------
+setup | `.setup` | [**Explained HERE!**](#Setup)
+
+
+Go back to [Commands](#Commands)
+
+
+-----
+
