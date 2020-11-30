@@ -42,6 +42,8 @@ coins channel | `.setup general <channel>` | To enable [Economy Module](#Economy
 # Commands
 Here are the categories the commands are divided in :
 Click on category to get available commands with example and usage.
+
+> - [Featured  Commands & Functionalities](#Featured)<br/>
 - [Utility](#Utility)
 - [Fun](#Fun)
 - [Music](#Music)
@@ -91,11 +93,12 @@ movie | `.movie now you see me` | Searches for available Moves. [Featured Comman
 tvshow | `.show Lucifer` | Searches for available TV Series. [Featured Command](#Featured)
 trailer | `.trailer Avengers` | Searches for available trailers on YouTube. [Featured Command](#Featured)
 booster | `.booster <message \| image \| role \| embed \| stats \| preview>` | Send custom message in [System Message Channel](https://prnt.sc/vrurxn) when someone. [Featured Command](#Featured)
+event | `.event <custom \| alert>` | Organize events and set alerts on event start. [Featured Command](#Featured)
+time | `.time <globe \| city \| link \| update>` | Get current time in any city or all over the globe. [Featured Command](#Featured)
+short | `.short https://top.gg/bot/699505785847283785` | Shorten the given URL.
 bin | `.bin <paste \| get> <Data \| Paste ID>` | You can easily save data to Pastebin and get an URL or get the data using the PasteID (end part of url).
 gif | `.gif celebration` | Sends a gif related to provided keyword else It'll send a random trending gif.
-ascii | `.ascii <query>` | Convert your query to ascii-art.
 reddit | `.reddit pcmasterrace` | Search a subreddit for you and returns a random popular post.
-short | `.short https://top.gg/bot/699505785847283785` | Shorten the given URL.
 image** | `.image steam` | Shows Image related to provided keyword.
 urban** | `.urban bots` | Search your query on Urban Disctionary.
 
@@ -128,6 +131,15 @@ groupinfo | `.steam groupinfo ESL` | Shows you information available on mentione
 
 ### Event
 
+
+
+-----
+
+### Fun
+
+Name | Example | Usage
+------------ | ------------- | -------------
+ascii | `.ascii <query>` | Convert your query to ascii-art.
 
 
 -----
