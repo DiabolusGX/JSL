@@ -66,11 +66,11 @@ If you have any doubts, you can always join [Support Server](https://bit.ly/jsl-
 - [Event Management](#Event) is the newest addition that can :
   > Create event, <br/>Convert event time in yout city time, <br/>Reminds you on event start(if you want), <br/>Ping `@role(s)` or `@everyone` or `@here` on event start.
 - **Booster** Command lets you setup the Custom Message, Image, Embed or Ping & Give custom role when someone boosts your server.<br/>
-  > `.booster message You are awesome. Check #booster-perks for info.` It'll send this custom message in [System Message Channel](https://prnt.sc/vrurxn).<br/>
-  > `.booster image <URL>` Sned URL without `<>` and URL must end with proper file extention. i.e `gif, png, jpeg...`. <br/>
-  > `.booster embed disable` It'll disable the embed and user will be pinged (`ENABLED` by default). <br/>
-  > `.booster stats disable` If you disable stats, bot will not show *number of boosts* and *level achieved on boost(if any)* (`ENABLED` by default). <br/>
-  > `.booster role 741641608079867905` It'll add  `741641608079867905` role to the user. You can mention the role or use role id.<br/>
+  > `.booster message You are awesome. Check #booster-perks for info.`<br/>It'll send this custom message in [System Message Channel](https://prnt.sc/vrurxn).<br/><br/>
+  > `.booster image <URL>` Sned URL without `<>` and URL must end with proper file extention. i.e `gif, png, jpeg...`. <br/><br/>
+  > `.booster embed disable` It'll disable the embed and user will be pinged (`ENABLED` by default). <br/><br/>
+  > `.booster stats disable` If you disable stats, bot will not show *number of boosts* and *level achieved on boost(if any)* (`ENABLED` by default). <br/><br/>
+  > `.booster role 741641608079867905` It'll add  `741641608079867905` role to the user. You can mention the role or use role id.<br/><br/>
   > `.booster preview` Will show you a preview of how booster message will look like.<br/><br/>
   >> **Note** : To disable message or remove image, set `none` in value. Like `.booster message none` will `DISABLE` these messages.
 - Using **Time** command, you can see current time all over the glove or time in any city.<br/>
