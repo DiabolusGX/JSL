@@ -17,7 +17,7 @@ A true multipurpose discord bot.
 
 *Commands marked with*
 - `*` can be unlocked for 12 hours after you [Vote JSL Bot.](https://bit.ly/jsl-bot 'Vote on top.gg')
-- `**` can unly be used in NSFW channels.
+- `**` can only be used in NSFW channels.
 
 ### Setup
 Starting with bot setup?
@@ -56,7 +56,7 @@ Click on category to get available commands with example and usage.
 ### **Featured**
 
 These are the core commands and functionalities of the bot and some of them are quite unique like :
-- [Steam Module](#Steam) is covered seperatly because it can be a little complex to understand.
+- [Steam Module](#Steam) is covered seperatly because it can be a little complex to understand.<br/>
 If you have any doubts, you can always join [Support Server](https://bit.ly/jsl-support)
 - [Movies](#Utility), [TV Shows](#Utility) & [Movie Trailers](#Utlity) are some of the most used commands of JSL Bot.
   <br/>Bot searches respective movies & seriese then you can respond with the `number` *next to the result* to get more info on respective result. **Like :** <br/>
