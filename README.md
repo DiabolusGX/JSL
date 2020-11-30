@@ -102,6 +102,9 @@ reddit | `.reddit pcmasterrace` | Search a subreddit for you and returns a rando
 image** | `.image steam` | Shows Image related to provided keyword.
 urban** | `.urban bots` | Search your query on Urban Disctionary.
 
+
+Go back to [Commands](#Commands)
+
 -----
 
 ### Steam
@@ -127,10 +130,34 @@ link | `.steam link DiabolusGX` | Links your discord to your steam account.
 play | `.steam play Destiny 2` | Shows list of your friends on steam that owns this game.
 groupinfo | `.steam groupinfo ESL` | Shows you information available on mentioned steam group.
 
+
+Go back to [Commands](#Commands)
+
+
 -----
 
 ### Event
 
+This command can be used to host events that server members can attend and set the alert types (`DM`, `PING`, `NONE`-default) on event start.<br/>
+- To create new event use `.event custom` command. **Symboles - \| & \[\] will be included in this command** <br/>Example:<br/>
+  `.event custom Movie Night | 1 d | Movie will be streamed in Movie Night VC [@Creator join now!]` [**This event will look like this**](https://prnt.sc/vsmjg5) <br/>
+  > `Movie Night` Will be the event name.<br/>
+  > `1 d` Is starting time. It can be anything between `5 minutes` & `7 days`. Like : `5 m`, `10 hr`, `50 hr`, `3 d`.<br/>
+  > `Movie will be streamed...` Is event Description.
+  > `@everyone Join Now!` Is [***Alert Message***](https://prnt.sc/vsmqb5). That'll appear when event starts. It has to be closed in `\[\]`.<br/>
+- To edit the event name, timing or alert message, You can use `.event edit <event message id>` like : <br/>
+  > `.event edit 782859872802570311 name Streaming Event` Will change event name to *"Streaming Night"*<br/>
+  > `.event edit 782859872802570311 time 10 hr` Will prepone the event time from 1 day to 10 hours from now.<br/>
+  > `.event edit 782859872802570311 desc Streaming VC Will be General vc.` It'll update event description.<br/>
+  > `.event edit 782859872802570311 message @event Streaming Now!` Will set [***Alert Message***](https://prnt.sc/vsmqb5) to *"@event Streaming Now!"* <br/>
+- You can also personal alert, so that bot will `DM` or `PING` you when event will start.<br/>To set the alert :<br/> 
+  > You have to react with '✅' to mark yourself as `ATTENDEE`.<br/>
+  > Use `.event alert ping` If you want to get a ping message on event start.<br/>
+  > or `.event alert dm` If you want to recieve DM when event starts.<br/>
+  > You can always disable the alert by `.event alert none` (default).<br/>
+
+
+Go back to [Commands](#Commands)
 
 
 -----
@@ -140,6 +167,9 @@ groupinfo | `.steam groupinfo ESL` | Shows you information available on mentione
 Name | Example | Usage
 ------------ | ------------- | -------------
 ascii | `.ascii <query>` | Convert your query to ascii-art.
+
+
+Go back to [Commands](#Commands)
 
 
 -----
@@ -166,6 +196,10 @@ loop | `.loop` | Switch b/w repeating the playlist and current song.
 lyrics | `.lyrics` | Shows lyrics of currently playing song or the song you entered. You have to respond with the *number* to the result to get lyrics.
 volume | `.volume 75` | Changes the volume between 1 and 100% (100 is pretty loud as you can probably tell)
 leave | `.leave` | Disconnects the bot from the voice channel and clears the queue.
+
+
+Go back to [Commands](#Commands)
+
 
 -----
 
@@ -195,6 +229,9 @@ To setup server shop (`.buysetup`) :
 - To remove, set value to `none` like `.buysetup role1 name none`
 
 **You can setup upto 3 items using `buysetup`**
+
+
+Go back to [Commands](#Commands)
 
 
 -----
