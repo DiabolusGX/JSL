@@ -55,17 +55,22 @@ Click on category to get available commands with example and usage.
 
 ### **Featured**
 
-These are the core commands and functionalities of the bot and some of them are quite unique like :
+These are the core commands and functionalities of the bot and some of them are quite unique like :<br/>
 - [Steam Module](#Steam) is covered seperatly because it can be a little complex to understand.<br/>
-If you have any doubts, you can always join [Support Server](https://bit.ly/jsl-support)
+If you have any doubts, you can always join [Support Server](https://bit.ly/jsl-support)<br/>
 - [Movies](#Utility), [TV Shows](#Utility) & [Movie Trailers](#Utlity) are some of the most used commands of JSL Bot.
-  <br/>Bot searches respective movies & seriese then you can respond with the `number` *next to the result* to get more info on respective result. **Like :** <br/>
+  <br/>Bot searches respective movies & seriese then you can respond with the `number` *next to the result* to get more info on respective result. **Like :** <br/><br/>
   > `.movie now you see me` if you reply with numner `2` and bot will show movie details `Now You See Me 2`.
       <br/> `.show Lucifer` if you reply `1` and bot will show you all about `Lucifer`.
-      <br/> `.trailer avengers` and reply with `2` to get YouTube trailer URL of ` Avengers: Endgame`.
-- [Event Management](#Event) is the newest addition that can :
+      <br/> `.trailer avengers` and reply with `2` to get YouTube trailer URL of ` Avengers: Endgame`.<br/>
+- **Giveaway** Command can be used to select random winner(s) from given message or role. <br/>
+  `.giveaway <message_id \| role> [number of winners]`<br/><br/>
+  > Using **Message ID** : `.giveaway <message_id> <channel> [number of winners]` <br/>
+  > -> Winner(s) will be selected randomly from 1st reaction on message (In case there are many reactions).<br/> -> Usage : `.giveaway 783388440431296543 #giveaways 5`.<br/><br/>
+  > **Role** can also be used to select random winners from given role.<br/> -> Usage : `.giveaway @ActiveMembers 2` (You can also use role id)<br/><br/>
+- [Event Management](#Event) is the newest addition that can :<br/><br/>
   > Create event, <br/>Convert event time in yout city time, <br/>Reminds you on event start(if you want), <br/>Ping `@role(s)` or `@everyone` or `@here` on event start.
-- **Booster** Command lets you setup the Custom Message, Image, Embed or Ping & Give custom role when someone boosts your server.<br/>
+- **Booster** Command lets you setup the Custom Message, Image, Embed or Ping & Give custom role when someone boosts your server.<br/><br/>
   > `.booster message You are awesome. Check #booster-perks for info.`<br/>It'll send this custom message in [System Message Channel](https://prnt.sc/vrurxn).<br/><br/>
   > `.booster image <URL>` Sned URL without `<>` and URL must end with proper file extention. i.e `gif, png, jpeg...`. <br/><br/>
   > `.booster embed disable` It'll disable the embed and user will be pinged (`ENABLED` by default). <br/><br/>
@@ -74,7 +79,7 @@ If you have any doubts, you can always join [Support Server](https://bit.ly/jsl-
   > `.booster preview` Will show you a preview of how booster message will look like.<br/><br/>
   >> **Note** : To disable message or remove image, set `none` in value. Like `.booster message none` will `DISABLE` these messages.
 - Using **Time** command, you can see current time all over the glove or time in any city.<br/>
-  You may ask HOW?<br/>
+  You may ask HOW?<br/><br/>
   > `.time globe` Have a glance on current time all across the globe.<br/>
   > `.time Sydney` Will show current date, day & time in Sydney, Australia.<br/>
   > `.time link Sydney` Will link your timezone to Sydney, Australia timezone (i.e `GMT +11`).<br/>
@@ -93,6 +98,7 @@ movie | `.movie now you see me` | Searches for available Moves. [Featured Comman
 tvshow | `.show Lucifer` | Searches for available TV Series. [Featured Command](#Featured)
 trailer | `.trailer Avengers` | Searches for available trailers on YouTube. [Featured Command](#Featured)
 booster | `.booster <message \| image \| role \| embed \| stats \| preview>` | Send custom message in [System Message Channel](https://prnt.sc/vrurxn) when someone. [Featured Command](#Featured)
+giveaway | `.give <message_id \| role> [no. of winners]` | Selects ramdon winner(s) from given msg or role [Featured Command](#Featured)
 event | `.event <custom \| alert>` | Organize events and set alerts on event start. [Featured Command](#Featured)
 time | `.time <globe \| city \| link \| update>` | Get current time in any city or all over the globe. [Featured Command](#Featured)
 short | `.short https://top.gg/bot/699505785847283785` | Shorten the given URL.
