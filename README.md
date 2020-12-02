@@ -1,7 +1,7 @@
 <h1 align="center"> JSL Bot </h1>
 <p align="center">A true multipurpose discord bot.</p>
 
-<p align="center"><a href="https://www.linkedin.com/in/ankitmalik0320/"><img src="/images/JSLval.png" ></a></p>
+<p align="center"><img src="/images/JSLval.png" ></p>
 
 -----
 
