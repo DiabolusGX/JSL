@@ -1,9 +1,11 @@
 <h1 align="center"> JSL Bot </h1>
 <p align="center">A true multipurpose discord bot.</p>
 
-<p align="center"><img src="/images/JSLval.png" ></p>
+### My Other Bots : `|` [Booster Bot](https://boosterbot.xyz/) `|` [Guess The Number](https://github.com/DiabolusGX/guess-the-number/) `|`
 
 -----
+<!-- <p align="center"><img src="/images/JSLval.png" ></p> -->
+
 
 | [Invite Bot](https://bit.ly/jsl-default) | [Support Server](https://bit.ly/jsl-support) | [Vote JSL](https://bit.ly/jsl-bot) | [Getting Started](#Setup) |
 
